@@ -2,7 +2,7 @@
 Marks in Maths >=65
 Marks in Phy >=55
 Marks in Chem>=50
-Total in all three subject >=180
+Total in all three subject >=190
 or
 Total in Math and Physics >=140
 
@@ -24,7 +24,7 @@ void main()
   printf("Input the marks obtained in Chemistry\n");
   scanf("%d",&Chem);
 
-  if(Maths>=65 && Phy>=55 && Chem>=50 && (Maths+Phy+Chem)>=180)
+  if(Maths>=65 && Phy>=55 && Chem>=50 && (Maths+Phy+Chem)>=190)
     printf("The candidate is eligible for admission\n");
     else if(Maths+Phy>=140)
     printf("The candidate is eligible for admission\n");
